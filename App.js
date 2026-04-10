@@ -6,7 +6,7 @@ function App() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
-  const API_KEY = "pub_28d6deb28346494aa538c7056327a4ce";
+  const API_KEY = "hehehe";
 
   const getNews = async () => {
     if (!topic) {
