@@ -52,36 +52,6 @@ body {
   transform: scale(1.05);
 }
 
-.categories {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin: 30px;
-}
-
-.categories button {
-  padding: 10px 18px;
-  border-radius: 25px;
-  border: 1px solid #3b82f6;
-  background: white;
-  color: #1e3a8a;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.categories button:hover {
-  background: #2563eb;
-  color: white;
-  transform: translateY(-3px);
-}
-
-.categories button:focus {
-  background: #2563eb;
-  color: white;
-}
-
 .error {
   text-align: center;
   color: red;
